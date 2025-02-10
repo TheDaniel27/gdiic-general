@@ -12,7 +12,7 @@ app.use(express.json()); // Asegura que Express pueda leer JSON en las peticione
 app.use(express.urlencoded({ extended: true })); // Permite manejar formularios
 
 // Conectar a MongoDB antes de definir las rutas
-mongoose.connect("mongodb://localhost:27017/gdiic", {
+mongoose.connect("mongodb://127.0.0.1:27017/gdiic", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
