@@ -1,0 +1,1 @@
+export { MisDatosVistaPara } from "./MisDatosVistaPara";

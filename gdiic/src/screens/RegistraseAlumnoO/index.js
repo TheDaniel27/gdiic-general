@@ -1,0 +1,1 @@
+export { RegistraseAlumnoO } from "./RegistraseAlumnoO";

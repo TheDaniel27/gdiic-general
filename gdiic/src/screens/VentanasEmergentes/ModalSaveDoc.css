@@ -1,0 +1,67 @@
+/* Fondo oscuro */
+.modal-overlay-nuevo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Contenedor del modal */
+.modal-content-nuevo {
+    background: white;
+    padding: 40px; /* Incrementa el espacio interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px; /* Incrementa el ancho de la ventana */
+    max-width: 90%; /* Asegura que no se desborde en pantallas pequeñas */
+}
+
+/* Encabezado del modal */
+.modal-header-nuevo {
+    display: flex; /* Alinea el ícono y el texto horizontalmente */
+    align-items: center; /* Centra el ícono y el texto verticalmente */
+    justify-content: center; /* Centra el grupo completo en el contenedor */
+    gap: 15px; /* Espaciado entre el ícono y el texto */
+    margin-bottom: 20px; /* Espacio inferior con los botones */
+}
+
+/* Mensaje del modal */
+.modal-message-nuevo {
+    font-family: "Afacad", Helvetica;
+    font-size: 26px; /* Ajusta el tamaño del texto */
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+
+/* Contenedor de botones */
+.modal-buttons-nuevo {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Reduce el espacio entre los botones */
+    margin-top: 20px; /* Ajusta el espacio superior */
+}
+
+/* Botones */
+.btn-aceptar-nuevo {
+    height: 35px; /* Reduce la altura */
+    width: 110px; /* Reduce el ancho */
+    font-family: "Afacad", Helvetica;
+    font-size: 20px; /* Reduce el tamaño del texto */
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #D5D5D6; /* Gris deseado */
+}
+
+.btn-aceptar-nuevo:hover {
+    background-color: #b5b4b5; /* Un gris más oscuro al pasar el mouse */
+}

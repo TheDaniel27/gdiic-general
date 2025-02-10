@@ -1,0 +1,1 @@
+export { VentanaInicialDe } from "./VentanaInicialDe";

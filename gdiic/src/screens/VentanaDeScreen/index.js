@@ -1,0 +1,1 @@
+export { VentanaDeScreen } from "./VentanaDeScreen";

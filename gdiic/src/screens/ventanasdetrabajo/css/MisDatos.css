@@ -1,0 +1,223 @@
+/* Contenedor principal */
+.chamilo {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columnas */
+    justify-content: center; /* Centra verticalmente dentro del área de trabajo */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto dentro de los elementos */
+    font-family: "Afacad", Helvetica, sans-serif;
+
+    position: relative; /* Permite un posicionamiento interno limpio */
+    width: 80%; /* Ajusta el ancho según el contenedor */
+    height: auto; /* Deja que la altura se ajuste dinámicamente */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espacio interno */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+
+    background: none !important; /* Elimina cualquier fondo */
+    box-shadow: none; /* Si hay sombras que crean la ilusión de fondo */
+    border: none; /* Asegura que no haya bordes visibles */
+}
+
+/* Estilo del saludo y el nombre */
+.text-wrapper-3 {
+    color: #000000;
+    font-family: "Afacad", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 20px; /* Espaciado entre líneas */
+}
+.text-wrapper-4{
+    color: #000000;
+    font-family: "Afacad", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 0px;
+}
+
+/* Contenedor de una fila (correo) */
+.fila {
+    display: flex; /* Activa Flexbox para alinear horizontalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 25px 0; /* Espacio entre filas */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+}
+
+/* Estilo de las etiquetas (Tu correo:) */
+.text-wrapper-6 {
+    color: #000000;
+    font-family: "Afacad", Helvetica;
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 10px; /* Espacio entre la etiqueta y el valor */
+}
+
+/* Estilo de los valores (correo, matrícula, etc.) */
+.text-wrapper-5 {
+    color: #333333;
+    font-family: "Afacad", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.lapiz {
+    height: 45px; /* Ajusta la altura proporcional al texto */
+    width: auto; /* Mantén la proporción de la imagen */
+    margin-left: 10px; /* Espacio entre el texto y el lápiz */
+    cursor: pointer; /* Cambia el cursor para indicar interactividad */
+    vertical-align: middle; /* Alinea verticalmente con la línea base */
+    position: relative; /* Necesario para usar `top` */
+    top: -10px; /* Mueve el lápiz ligeramente hacia arriba */
+    transition: transform 0.2s ease; /* Efecto al pasar el mouse */
+}
+
+.lapiz:hover {
+    transform: scale(1.2); /* Aumenta ligeramente el tamaño al pasar el cursor */
+}
+
+  .ojo {
+    height: 45px; /* Tamaño proporcional al texto */
+    width: auto; /* Mantén la proporción */
+    cursor: pointer; /* Cambia el cursor a "pointer" */
+    margin-left: 15px; /* Aumenta el espacio entre el ojo y el texto */
+    margin-right: 5px; /* Espacio entre el ojo y el lápiz */
+    transition: transform 0.2s ease; /* Efecto al pasar el mouse */
+  }
+  .ojo2 {
+    height: 45px; /* Tamaño proporcional al texto */
+    width: auto; /* Mantén la proporción */
+    cursor: pointer; /* Cambia el cursor a "pointer" */
+    margin-left: 15px; /* Aumenta el espacio entre el ojo y el texto */
+    margin-right: 5px; /* Espacio entre el ojo y el lápiz */
+    transition: transform 0.2s ease; /* Efecto al pasar el mouse */
+  }
+  
+.ojo:hover {
+    transform: scale(1.2); /* Aumenta ligeramente al pasar el mouse */
+}
+
+.area-cambio-contrasena {
+    position: relative; /* Contenedor relativo para posicionar elementos absolutos dentro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Asegúrate de que ocupe todo el espacio del área de trabajo */
+    width: 100%; /* Ancho completo del área de trabajo */
+    background: none; /* Fondo limpio */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Botón de volver */
+  .group-12 {
+    position: absolute; /* Fija la posición dentro del área de trabajo */
+    top: 0px; /* Espacio desde la parte superior */
+    left: -140px; /* Espacio desde la izquierda */
+    display: flex; /* Alineación horizontal */
+    align-items: center; /* Centra verticalmente el texto y el icono */
+    gap: 10px; /* Espaciado entre el icono y el texto */
+    cursor: pointer; /* Cursor de clic */
+  }
+  
+  /* Texto "Volver a mis datos" */
+  .text-wrapper-35 {
+    color: #000000;
+    font-family: "Afacad", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  
+  /* Imagen del icono de volver */
+  .volver {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+  }
+
+
+
+
+
+
+  /* Campos del formulario */
+  .formulario {
+    width: 100%;
+    max-width: 600px; /* Aumenta el ancho máximo */
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Aumenta el espacio entre los campos */
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  label {
+    font-size: 25px;
+    color: #000;
+    text-align: left; /* Alinea el texto a la izquierda */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    margin-left: 0; /* Ajusta el margen para alinear a la izquierda */
+  }
+  
+  /* Input y contenedor */
+  .input-contenedor {
+    position: relative;
+  }
+  
+  input {
+    font-family: "Afacad", Helvetica;
+    width: 100%; /* Aumenta el ancho del input */
+    padding: 12px 50px 12px 15px; /* Aumenta el padding */
+    font-size: 27px; /* Aumenta el tamaño de la fuente */
+    height: 50px; /* Aumenta la altura del campo */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordes más redondeados */
+    box-sizing: border-box;
+  }
+  
+  .ojo {
+    position: absolute;
+    right: 10px;
+    top: 50%; /* Centra el ojo verticalmente */
+    top: 12px; /* Ajusta manualmente según la altura del input */
+    cursor: pointer;
+    height: 24px; /* Tamaño fijo */
+    width: 24px;
+  }
+  .ojo img {
+    width: 24px; /* Tamaño fijo */
+    height: 24px; /* Tamaño fijo */
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor */
+  }
+  .ojo:hover{
+    transform: none;
+  }
+  
+  /* Botón de cambiar */
+  .btn-cambiar {
+    width: 200px;
+    height: 50px;
+    padding: 12px 20px;
+    font-family: "Afacad", Helvetica;
+    font-size: 24px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #000000; /* Borde verde */    
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    align-self: flex-end; /* Alinea el botón a la derecha */
+    margin-top: 0px; /* Espacio desde los elementos anteriores */
+    align-items: center;
+    line-height: 25px;
+  }
+  
+  .btn-cambiar:hover {
+    background-color: #b5b4b5;
+  }
+

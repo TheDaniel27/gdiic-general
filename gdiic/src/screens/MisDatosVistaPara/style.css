@@ -1,0 +1,556 @@
+.mis-datos-vista-para {
+  background-color: #cce7b7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.mis-datos-vista-para .div-3 {
+  background-color: #cce7b7;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.mis-datos-vista-para .overlap-5 {
+  height: 921px;
+  left: 0;
+  position: absolute;
+  top: 159px;
+  width: 1920px;
+}
+
+.mis-datos-vista-para .overlap-6 {
+  height: 921px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.mis-datos-vista-para .rectangle-8 {
+  height: 886px;
+  left: 421px;
+  position: absolute;
+  top: 35px;
+  width: 1499px;
+}
+
+.mis-datos-vista-para .text-wrapper-32 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 670px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 445px;
+  white-space: nowrap;
+}
+
+.mis-datos-vista-para .rectangle-9 {
+  height: 36px;
+  left: 421px;
+  position: absolute;
+  top: 0;
+  width: 1499px;
+}
+
+.mis-datos-vista-para .mis-datos-cambiar {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 421px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 1499px;
+}
+
+.mis-datos-vista-para .rectangle-10 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  height: 70px;
+  left: 671px;
+  position: absolute;
+  top: 319px;
+  width: 1000px;
+}
+
+.mis-datos-vista-para .input-2 {
+  background-color: transparent;
+  border: none !important; /* Asegura que no haya borde */
+  outline: none; /* Elimina el borde al hacer clic en un input */
+  border: 0;
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 69px;
+  left: 700px;
+  letter-spacing: 0;
+  line-height: 35px;
+  padding: 0;
+  position: absolute;
+  top: 319px;
+  width: 907px;
+}
+
+.mis-datos-vista-para .input-2::placeholder {
+  color: #00000099;
+}
+
+.mis-datos-vista-para .documento-2 {
+  height: 32px;
+  left: 1621px;
+  object-fit: cover;
+  position: absolute;
+  top: 338px;
+  width: 36px;
+}
+
+.mis-datos-vista-para .rectangle-11 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  height: 70px;
+  left: 670px;
+  position: absolute;
+  top: 496px;
+  width: 1000px;
+}
+
+.mis-datos-vista-para .input-3 {
+  background-color: transparent;
+  border: none !important; /* Asegura que no haya borde */
+  outline: none; /* Elimina el borde al hacer clic en un input */
+  border: 0;
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 69px;
+  left: 700px;
+  letter-spacing: 0;
+  line-height: 35px;
+  padding: 0;
+  position: absolute;
+  top: 496px;
+  width: 907px;
+}
+
+.mis-datos-vista-para .input-3::placeholder {
+  color: #00000099;
+}
+
+.mis-datos-vista-para .documento-3 {
+  height: 32px;
+  left: 1621px;
+  object-fit: cover;
+  position: absolute;
+  top: 515px;
+  width: 36px;
+}
+
+.mis-datos-vista-para .group-11 {
+  height: 50px;
+  left: 1370px;
+  position: absolute;
+  top: 632px;
+  transition: all 0.2s ease;
+  width: 302px;
+}
+
+.mis-datos-vista-para .group-11:hover {
+  transform: scale(1.1);
+}
+
+.mis-datos-vista-para .overlap-group-4 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+  height: 50px;
+  position: relative;
+  width: 300px;
+}
+
+.mis-datos-vista-para .text-wrapper-33 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 299px;
+}
+
+.mis-datos-vista-para .text-wrapper-34 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 671px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 274px;
+  white-space: nowrap;
+}
+
+.mis-datos-vista-para .group-12 {
+  height: 40px;
+  left: 442px;
+  position: absolute;
+  top: 49px;
+  transition: all 0.2s ease;
+  width: 230px;
+}
+.mis-datos-vista-para .group-12:hover {
+  transform: scale(1.1);
+}
+
+.mis-datos-vista-para .text-wrapper-35 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 57px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+}
+
+.mis-datos-vista-para .volver {
+  height: 40px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.mis-datos-vista-para .overlap-wrapper {
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 855px;
+  width: 425px;
+}
+
+.mis-datos-vista-para .overlap-7 {
+  background-image: url(../../../static/img/rectangle-45.svg);
+  background-size: 100% 100%;
+  height: 66px;
+  position: relative;
+  width: 421px;
+}
+
+.mis-datos-vista-para .text-wrapper-36 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 161px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+  width: 100px;
+}
+
+.mis-datos-vista-para .text-wrapper-37 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 36px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  white-space: nowrap;
+  width: 421px;
+}
+
+.mis-datos-vista-para .rectangle-12 {
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 761px;
+  width: 422px;
+}
+
+.mis-datos-vista-para .group-13 {
+  height: 65px;
+  left: 10px;
+  position: absolute;
+  top: 771px;
+  width: 263px;
+}
+
+.mis-datos-vista-para .text-wrapper-38 {
+  -webkit-text-stroke: 1px #000000;
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 34px;
+  font-weight: 400;
+  height: 65px;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: -1px;
+  width: 193px;
+}
+
+.mis-datos-vista-para .img-3 {
+  height: 65px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 65px;
+}
+
+.mis-datos-vista-para .overlap-8 {
+  height: 473px;
+  left: 14px;
+  position: absolute;
+  top: 9px;
+  width: 403px;
+}
+
+.mis-datos-vista-para .group-14 {
+  height: 461px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 403px;
+}
+
+.mis-datos-vista-para .group-15 {
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 192px;
+  width: 404px;
+}
+
+.mis-datos-vista-para .text-wrapper-39 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 77px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 15px;
+  width: 325px;
+}
+
+.mis-datos-vista-para .group-16 {
+  height: 71px;
+  left: 4px;
+  position: absolute;
+  top: 291px;
+  width: 371px;
+}
+
+.mis-datos-vista-para .text-wrapper-40 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  width: 295px;
+}
+
+.mis-datos-vista-para .exportar-2 {
+  height: 65px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 60px;
+}
+
+.mis-datos-vista-para .group-17 {
+  height: 65px;
+  left: 4px;
+  position: absolute;
+  top: 396px;
+  width: 365px;
+}
+
+.mis-datos-vista-para .text-wrapper-41 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  width: 295px;
+}
+
+.mis-datos-vista-para .importar-2 {
+  height: 65px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
+
+.mis-datos-vista-para .group-18 {
+  height: 48px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+  width: 130px;
+}
+
+.mis-datos-vista-para .text-wrapper-42 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.mis-datos-vista-para .group-19 {
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 91px;
+  width: 405px;
+}
+
+.mis-datos-vista-para .text-wrapper-43 {
+  color: #000000;
+  font-family: "Afacad", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 77px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 13px;
+  width: 326px;
+}
+
+.mis-datos-vista-para .overlap-9 {
+  height: 37px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 1922px;
+}
+
+.mis-datos-vista-para .rectangle-13 {
+  background-color: #4f4f4f;
+  border: 1px solid;
+  border-color: #000000;
+  height: 35px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1922px;
+}
+
+.mis-datos-vista-para .text-wrapper-44 {
+  color: #ffffff;
+  font-family: "Afacad", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mis-datos-vista-para .text-wrapper-45 {
+  color: #ffffff;
+  font-family: "Afacad", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mis-datos-vista-para .text-wrapper-46 {
+  color: #ffffff;
+  font-family: "Afacad", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 220px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mis-datos-vista-para .group-20 {
+  height: 35px;
+  left: 1728px;
+  position: absolute;
+  top: 2px;
+  width: 150px;
+}
+
+.mis-datos-vista-para .text-wrapper-47 {
+  color: #ffffff;
+  font-family: "Afacad", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.mis-datos-vista-para .image-2 {
+  height: 28px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 28px;
+}

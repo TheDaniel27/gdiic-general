@@ -1,0 +1,20 @@
+.documento {
+    font-family: 'Arial', serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    padding: 20px;
+    max-width: 800px; /* Ajusta este valor según sea necesario */
+    margin: 0 auto;
+}
+.documento .firma .casilla {
+    display: block;
+    margin-top: 5px;
+}
+.documento .casilla {
+    border: none;
+    font-family: 'Arial', serif;
+    font-size: 12pt;
+    background-color: transparent;
+    width: auto;
+    margin: 0 5px;
+}

@@ -1,0 +1,89 @@
+/* Estilos generales para el documento */
+.documento {
+    font-family: 'Arial', serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    padding: 20px;
+    max-width: 800px; /* Ajusta este valor según sea necesario */
+    margin: 0 auto;
+  }
+  img{
+    width: 150px;
+    height: 180px;
+    display: block;
+  }
+  .imagenytitulo{
+    display: flex;
+  }
+  h1{
+    font-weight: normal;
+  }
+  h3{
+    font-weight:normal;
+    margin-bottom: 10%;
+  }
+  .encabezado{
+    display: flex;
+  }
+    /* Estilos para los párrafos */
+  .documento p strong{
+    margin: none;
+  }
+  
+    /* Estilos para los campos editables (inputs) */
+  
+  .jefe{
+    font-weight: bold;
+  }
+  .documento .casilla {
+      border: none;
+      font-family: 'Arial', serif;
+      font-size: 12pt;
+      background-color: transparent;
+      width: auto;
+      margin: 0 5px;
+  }
+  .bloc{
+    display: block;
+    margin-bottom:10px ;
+  }
+  .uni{
+    text-align: center;
+    margin-left: 6%;
+  }
+    /* Estilos para los textos en negrita */
+  .documento strong {
+      font-weight: bold;
+  }
+  
+    /* Estilos para el nombre del solicitante y la matrícula */
+  .documento .firma{
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      
+  }
+  
+  .documento .firma .casilla {
+      display: block;
+      margin-top: 5px;
+  }
+  .cuerpo {
+      text-align: justify;
+  }
+  .atentamente {
+    text-align: center;
+  }
+  .fecha{
+    text-align: right;
+  }
+  @media print {
+    .documento {
+      width: 215.9mm; /* Ancho de carta */
+      height: 279.4mm; /* Alto de carta */
+      padding: 20mm; /* Márgenes */
+      box-shadow: none;
+      border: none;
+    }
+  }
+  

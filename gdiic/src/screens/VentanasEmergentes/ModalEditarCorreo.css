@@ -1,0 +1,88 @@
+/* Fondo oscuro */
+.modal-overlay-nueva {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    font-family: "Afacad", sans-serif;
+  }
+  
+  /* Contenedor del modal */
+  .modal-container-nueva {
+    background: #ffffff;
+    padding: 40px 30px; /* Ajustar espaciado interno */
+    border-radius: 15px; /* Bordes más redondeados */
+    width: 450px; /* Ajustar ancho */
+    text-align: left; /* Alinear el texto a la izquierda */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Sombra más intensa */
+    font-family: "Afacad", sans-serif;
+    position: relative;
+  }
+  
+  /* Título del modal (sin negrita) */
+  .modal-title-nueva {
+    font-size: 28px;
+    font-weight: normal; /* Se quitó la negrita */
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  /* Input del modal */
+  .modal-input-nueva {
+    font-size: 16px;
+    color: #000;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-family: "Afacad", sans-serif;
+  }
+  
+  /* Contenedor de botones (alineados a la derecha) */
+  .modal-buttons-nueva {
+    display: flex;
+    justify-content: flex-end; /* Mueve los botones a la derecha */
+    gap: 10px; /* Espacio entre botones */
+    position: absolute;
+    bottom: 20px; /* Fija los botones en la parte inferior */
+    right: 30px; /* Fija los botones en la derecha */
+    width: auto;
+  }
+  
+  /* Botones */
+  .modal-btn-nueva {
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-family: "Afacad", sans-serif;
+  }
+  
+  /* Botón Cancelar */
+  .modal-btn-nueva.cancel-nueva {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    text-decoration: none; /* ❌ Se quitó el subrayado */
+    cursor: pointer;
+  }
+  
+  /* Botón Crear */
+  .modal-btn-nueva.create-nueva {
+    background-color: #f5f5f5;
+    color: #000;
+  }
+  
+  .modal-btn-nueva.create-nueva:hover {
+    background-color: #b5b4b5; /* Cambia el color al pasar el ratón */
+  }
+  

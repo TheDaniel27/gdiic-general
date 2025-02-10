@@ -1,0 +1,46 @@
+.contenido .group-80 {
+    height: 50px;
+    left: 40px;
+    position: absolute;
+    top: 30px;
+    transition: all 0.2s ease;
+    width: 242px;
+    cursor: pointer;
+  }
+  
+  .contenido .group-80:hover {
+    transform: scale(1.1);
+  }
+  
+  .contenido .overlap-34 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 7px;
+    height: 50px;
+    position: relative;
+    width: 240px;
+  }
+  
+  .contenido .text-wrapper-147 {
+    color: #000000;
+    font-family: "Afacad", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 61px;
+    letter-spacing: 0;
+    line-height: 35px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    white-space: nowrap;
+  }
+  
+  .contenido .mas-2 {
+    height: 30px;
+    left: 5px;
+    object-fit: cover;
+    position: absolute;
+    top: 9px;
+    width: 30px;
+  }

@@ -1,0 +1,498 @@
+.registrase-alumno-o {
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.registrase-alumno-o .div-7 {
+  background-color: #faf9f6;
+  height: 1080px;
+  position: relative;
+  width: 1920px;
+}
+
+.registrase-alumno-o .overlap-group-9 {
+  height: 421px;
+  left: 630px;
+  position: absolute;
+  top: 326px;
+  width: 660px;
+}
+
+.registrase-alumno-o .rectangle-37 {
+  background-color: #fffbe0;
+  border: 1px solid;
+  border-color: #000000;
+  height: 391px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 660px;
+}
+
+.registrase-alumno-o .rectangle-38 {
+  background-color: #fffbe0;
+  border: 1px solid;
+  border-color: #000000;
+  height: 31px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 185px;
+}
+
+.registrase-alumno-o .text-wrapper-103 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 225px;
+  letter-spacing: 3.20px;
+  line-height: normal;
+  position: absolute;
+  top: 49px;
+  width: 209px;
+}
+
+.registrase-alumno-o .text-wrapper-104 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 282px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 98px;
+  width: 95px;
+}
+
+.registrase-alumno-o .text-wrapper-105 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 250px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 128px;
+}
+
+.registrase-alumno-o .rectangle-39 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  height: 20px;
+  left: 227px;
+  position: absolute;
+  top: 131px;
+  width: 20px;
+}
+
+.registrase-alumno-o .text-wrapper-106 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 351px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 128px;
+}
+
+.registrase-alumno-o .rectangle-40 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50px;
+  height: 20px;
+  left: 328px;
+  position: absolute;
+  top: 131px;
+  width: 20px;
+}
+
+.registrase-alumno-o .text-wrapper-107 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 113px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 375px;
+  width: 184px;
+}
+
+.registrase-alumno-o .haz-clic-aqu-para-3 {
+  color: transparent;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 299px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 375px;
+}
+
+.registrase-alumno-o .text-wrapper-108 {
+  color: #3999d4;
+}
+
+.registrase-alumno-o .text-wrapper-109 {
+  color: #000000;
+}
+
+.registrase-alumno-o .line-5 {
+  height: 31px;
+  left: 184px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.registrase-alumno-o .polygon-4 {
+  height: 29px;
+  left: 162px;
+  position: absolute;
+  top: 1px;
+  width: 43px;
+}
+
+.registrase-alumno-o .text-wrapper-110 {
+  color: #00000057;
+  font-family: "Prompt", Helvetica;
+  font-size: 100px;
+  font-weight: 400;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 806px;
+  width: 1912px;
+}
+
+.registrase-alumno-o .UNISTMO-logo-4 {
+  height: 200px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 43px;
+  width: 200px;
+}
+
+
+
+
+.registrase-alumno-o .text-wrapper-64 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 270px;
+  width: 151px;
+}
+.registrase-alumno-o .rectangle-20 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+  height: 25px;
+  left: 227px;
+  position: absolute;
+  top: 295px;
+  width: 205px;
+}
+
+.registrase-alumno-o .ej {
+  background-color: transparent;
+  border: none !important; /* Asegura que no haya borde */
+  outline: none; /* Elimina el borde al hacer clic en un input */
+  border: 0;
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 24px;
+  left: 233px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 294px;
+  width: 194px;
+}
+
+.registrase-alumno-o .text-wrapper-68 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 160px;
+}
+
+.registrase-alumno-o .rectangle-23 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+  height: 25px;
+  left: 227px;
+  position: absolute;
+  top: 185px;
+  width: 205px;
+}
+
+.registrase-alumno-o .ej-juan-peprez {
+  background-color: transparent;
+  border: none !important; /* Asegura que no haya borde */
+  outline: none; /* Elimina el borde al hacer clic en un input */
+  border: 0;
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 23px;
+  left: 231px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 185px;
+  width: 197px;
+}
+
+.registrase-alumno-o .text-wrapper-70 {
+  color: #c10000;
+  font-family: "Preahvihear", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 318px;
+  width: 205px;
+}
+
+.registrase-alumno-o .text-wrapper-69 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 215px;
+}
+
+.registrase-alumno-o .rectangle-24 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+  height: 25px;
+  left: 227px;
+  position: absolute;
+  top: 240px;
+  width: 205px;
+}
+
+.registrase-alumno-o .nombre-organizacin-2 {
+  background-color: transparent;
+  border: none !important; /* Asegura que no haya borde */
+  outline: none; /* Elimina el borde al hacer clic en un input */
+  border: 0;
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 24px;
+  left: 233px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 239px;
+  width: 195px;
+}
+
+.registrase-alumno-o .obligatorio-3 {
+  height: 25px;
+  left: 436px;
+  object-fit: cover;
+  position: absolute;
+  top: 295px;
+  width: 25px;
+}
+
+
+.registrase-alumno-o .text-wrapper-76 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 270px;
+  width: 151px;
+}
+
+.registrase-alumno-o .rectangle-26 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5px;
+  height: 25px;
+  left: 227px;
+  position: absolute;
+  top: 295px;
+  width: 205px;
+}
+
+.registrase-alumno-o .ej-2 {
+  background-color: transparent;
+  border: none !important; /* Asegura que no haya borde */
+  outline: none; /* Elimina el borde al hacer clic en un input */
+  border: 0;
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 24px;
+  left: 233px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 294px;
+  width: 194px;
+}
+
+.registrase-alumno-o .ej-2::placeholder {
+  color: #00000099;
+}
+
+.registrase-alumno-o .text-wrapper-82 {
+  color: #c10000;
+  font-family: "Preahvihear", Helvetica;
+  font-size: 7.5px;
+  font-weight: 400;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 318px;
+  width: 205px;
+}
+
+.registrase-alumno-o .obligatorio-4 {
+  height: 25px;
+  left: 436px;
+  object-fit: cover;
+  position: absolute;
+  top: 295px;
+  width: 25px;
+}
+
+
+.registrase-alumno-o .radio-group-nuevo {
+  display: flex;
+  gap: 20px; /* Espacio entre las opciones */
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+}
+
+
+.registrase-alumno-o .radio-option-nuevo {
+  display: flex;
+  align-items: center;
+  gap: 3px; /* Reduce el espacio entre la bolita y el texto */
+}
+
+.registrase-alumno-o .radio-option-nuevo input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.registrase-alumno-o .radio-option-nuevo input[type="radio"]:checked {
+  background-color: #8FBAFA; /* Color cuando se selecciona */
+  border-color: #8FBAFA; /* Asegura que el borde coincida con el color */
+}
+
+.registrase-alumno-o .radio-label-nuevo {
+  font-family: "Prompt", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+
+
+
+.registrase-alumno-o .group-35 {
+  height: 33px;
+  left: 230px;
+  position: absolute;
+  top: 335px;
+  transition: all 0.2s ease;
+  width: 202px;
+}
+
+.registrase-alumno-o .group-35:hover {
+  transform: scale(1.1);
+}
+
+.registrase-alumno-o .overlap-group-6 {
+  background-image: url(../../../static/img/rectangle-44.svg);
+  background-size: 100% 100%;
+  height: 33px;
+  position: relative;
+  width: 200px;
+}
+
+.registrase-alumno-o .text-wrapper-63 {
+  color: #000000;
+  font-family: "Prompt", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 199px;
+}

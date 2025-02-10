@@ -1,0 +1,79 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+.modal-content {
+    background: white;
+    padding: 40px; /* Incrementa el espacio interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px; /* Incrementa el ancho de la ventana */
+    max-width: 90%; /* Asegura que no se desborde en pantallas pequeñas */
+}
+  
+  .modal-header {
+    display: flex; /* Alinea el ícono y el texto horizontalmente */
+    align-items: center; /* Centra el ícono y el texto verticalmente */
+    justify-content: center; /* Centra el grupo completo en el contenedor */
+    gap: 15px; /* Espaciado entre el ícono y el texto */
+    margin-bottom: 20px; /* Espacio inferior con los botones */
+}
+
+.modal-icon {
+    height: 60px; /* Ajusta la altura del ícono */
+    width: 60px; /* Ajusta el ancho del ícono */
+    object-fit: contain; /* Evita deformación de la imagen */
+}
+
+.modal-message {
+    font-family: "Afacad", Helvetica;
+    font-size: 26px; /* Ajusta el tamaño del texto */
+    font-weight: 400;
+    text-align: left; /* Alinea el texto a la izquierda */
+    color: #000000; /* Color del texto */
+}
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Reduce el espacio entre los botones */
+    margin-top: 20px; /* Ajusta el espacio superior */
+}
+
+.btn-cancelar,
+.btn-aceptar {
+    height: 35px; /* Reduce la altura */
+    width: 110px; /* Reduce el ancho */
+    font-family: "Afacad", Helvetica;
+    font-size: 20px; /* Reduce el tamaño del texto */
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-cancelar {
+    background-color: #ffffff; /* Blanco */
+}
+
+.btn-cancelar:hover {
+    background-color: #b5b4b5; /* Un gris claro al pasar el mouse */
+}
+
+.btn-aceptar {
+    background-color: #D5D5D6; /* Gris deseado */
+}
+
+.btn-aceptar:hover {
+    background-color: #b5b4b5; /* Un gris más oscuro al pasar el mouse */
+}

@@ -1,0 +1,55 @@
+.documento {
+    font-family: 'Bookplate Regular', serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    padding: 20px;
+    max-width: 800px; /* Ajusta este valor según sea necesario */
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+}
+td p{
+    font-size: 8pt;
+}
+.encabezado{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+.encabezado .texto{
+    margin: 0;
+    padding: 0;
+}
+.texto span{
+    margin: 0;
+    padding: 0;
+}
+.encabezado img{
+    width: 3.1cm;
+    height: 3.07cm;
+    display: block;
+}
+
+.linea{
+    display: block;
+    background-color: green;
+    width: 70%;
+    height: 3px;
+}
+.hr{
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+.hr1{
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+}
+.linea1{
+    width: 90%;
+    height: 3px;
+    background-color: green;
+}
